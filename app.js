@@ -23,6 +23,10 @@ const cal = google.calendar({
     auth: apiKey
 });
 
+app.get('/', (req, res) => {
+  res.redirect('/answer')
+})
+
 app.post('/event', (req, res) => {
   res.json({ok:true}); // status 200 is default
 })
