@@ -3,6 +3,7 @@
 // UTC_OFFSET - Minutes offset to output times to voice from UTC
 // API_KEY - Google API key that can be used to query Google Calendar
 // CALENDAR_URI - URI of the Google Calendar to query, must be publicly readable
+// VOICE_NAME - Nexmo voice to use for text-to-spech
 // PORT - The port the application should listen on
 
 const express = require('express');
