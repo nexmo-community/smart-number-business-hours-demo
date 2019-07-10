@@ -81,7 +81,7 @@ function buildResponse(time, result){
     ncco.push({
       action: "talk",
       voiceName: voiceName,
-      text: "We are current closed."
+      text: "We are currently closed."
     })
   }
 
