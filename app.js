@@ -75,7 +75,7 @@ function buildResponse(time, result){
     ncco.push({
       action: "talk",
       voiceName: voiceName,
-      text: "Our business hours today are from " + startTime.utcOffset(utcOffset).format("LT") + " to " + endTime.utcOffset(utcOffset).format("LT")
+      text: `Our business hours today are from ${startTime.utcOffset(utcOffset).format("LT")} to ${endTime.utcOffset(utcOffset).format("LT")}`
     })
   } else {
     ncco.push({
