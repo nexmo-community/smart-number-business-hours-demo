@@ -70,7 +70,7 @@ function buildResponse(time, result){
     ncco.push({
       action: "talk",
       voiceName: voiceName,
-      text: "Welcome to the business hours demo app!"
+      text: "Welcome to the Smart Number Business Hours demo!"
     })
     ncco.push({
       action: "talk",
